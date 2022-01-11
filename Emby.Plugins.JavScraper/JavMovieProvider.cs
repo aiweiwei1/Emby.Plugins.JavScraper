@@ -195,7 +195,7 @@ namespace Emby.Plugins.JavScraper
                 if (m.Genres == null)
                     m.Genres = new List<string>() { CHINESE_SUBTITLE_GENRE };
                 else if (m.Genres.Contains(CHINESE_SUBTITLE_GENRE) == false)
-                    m.Genres.Add("中文字幕");
+                    m.Genres.Add("Chinese");
             }
 
             //格式化标题
